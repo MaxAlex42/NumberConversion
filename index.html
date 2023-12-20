@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <h1>Hex-, Dec-, Bin - Conversion</h1>
+  </header>
+  <p class="outPar">Input: <br>
+    <select name="Form" id="selector">
+      <option value="Hex">Hex</option>
+      <option value="Dec">Dec</option>
+      <option value="Bin">Bin</option>
+    </select>
+    <input id="input" type="text"> <br>
+    <button id="convButton">Convert</button>
+  </p>
+  <p class="outPar">
+    Hexadecimal:<br>
+    <input type="text" id="hexOutput" class="outputField" readonly>
+  </p>
+  <p class="outPar">
+    Decimal:<br>
+    <input type="text" id="decOutput" class="outputField" readonly>
+  </p>
+  <p class="outPar">
+    Binary (2 Comp.):<br>
+    <input type="text" id="binOutput" class="outputField" readonly>
+  </p>
+  <p>
+    <button id="reset">Reset</button>
+  </p>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
